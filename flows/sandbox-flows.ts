@@ -70,4 +70,20 @@ export const sandboxFlows: Flow[] = [
     ctaUrl: "https://zkshop.vercel.app/",
     congratulationTexts: ["Congratulations !"],
   },
+  {
+    path: "snapshot-gitcoindao-voters",
+    attester: hydraS1SimpleAttesterSandbox.name,
+    network: Network.Polygon,
+    attesterType: "hydra-s1",
+    badgesCollection: hydraS1SimpleSandboxBadges,
+    badgesInternalCollectionsIds: [8],
+    title: "Gitcoin Voters",
+    logoUrl: null,
+    subtitle: "Attest your vote on Snapshot's Gitcoin space",
+    onboardingDescription:
+      "Access gated Gitcoin channels and become an active member of the Gitcoin DAO",
+    ctaLabel: "Access gated channels",
+    ctaUrl: "<https://discord.gg/gitcoin>",
+    congratulationTexts: ["Join Snapshot space !"],
+  },
 ];
